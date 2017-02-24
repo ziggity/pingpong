@@ -9,7 +9,7 @@ function pingPong(pingPongs){
     } else if (i % 5 === 0) {
       $("#outPut").append("<li>pong</li>");
     } else {
-      $("#outPut").append("<li>" + i + "</li>");
+      $("#outPut").append("<li>" + i + "</li>").slideDown;
     }
   }
 }
