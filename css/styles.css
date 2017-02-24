@@ -57,7 +57,7 @@ p:hover{
 
 
 img{
-  width:5%
+  width:7%
 }
 
 #end {
@@ -65,7 +65,14 @@ img{
   flex-grow: 1;
 }
 
+ul:hover{
+  color: red;
+}
 ul{
+  font-family: sans-serif;
+  color: blue;
+  font-size: 40px;
   text-align: center;
+  text-shadow: black 0.2em 0.2em 0.9em;
   list-style-type: none;
 }
