@@ -33,3 +33,7 @@ img{
      width:100%;
      height:125px;   /* Height of the footer */
   }
+ul{
+  text-align: center;
+  list-style-type: none;
+}
