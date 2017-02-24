@@ -8,17 +8,21 @@
     <script src="js/scripts.js"></script>
     <title>PingPong</title>
   </head>
-  <body>
-    <div class="container">
-      <h1>PingPong</h1>
-      <form>
-        <div class="form-group">
-          <label for="inputSen"></label>
-          <input id="pingPong" type="text" class="form-control">
-        </div>
-        <button type="submit" name="button">Let's play Ping-Pong here!</button>
+  <body  background="https://images-na.ssl-images-amazon.com/images/I/61BpP4D4InL._SL1500_.jpg" id="backgroundimg">
+    <div class="container-fluid text-centered">
+      <h1 class="jumbotron">PingPong</h1>
+      <p class="well"> A simple web app that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following: ping, pong, ping-pong messages!</p>
+      <form id=formInput>
+      <div class="form-group">
+        <label for="pingPong"></label>
+        <input id="pingPong" type="text" class="form-control">
+      </div>
+      <button type="submit" name="button">Let's play Ping-Pong click this button!</button>
       </form>
-      <div id="someThing">
+      <div id="outPut">
+      </div>
+      <div id="footer" class="jumbotron">
+            <p class="footer">Website created by <a href="https://github.com/ziggity" target="_blank">Zach Beecher (click me to get to github) <img src="https://pbs.twimg.com/profile_images/738435601767104517/V_NPP7rh_400x400.jpg" alt="zach beecher"</a></p>
       </div>
     </div>
   </body>
