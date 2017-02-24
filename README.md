@@ -9,23 +9,24 @@ _A web app that takes a number from a user and returns a range of numbers from 1
 
 ## Link to repository and GH-pages
 https://github.com/ziggity/pingpong.git
+https://ziggity.github.io/pingpong/
 
 
 ## Specs
 
-_1. Take user input and return this result (#'s divisible by 3):
+* _1. Take user input and return this result (#'s divisible by 3):
 input: 6,9,12,15, etc
 output: "ping"_
-_2.Take user input and return this result (#'s divisible by 5)
+* _2.Take user input and return this result (#'s divisible by 5)
 input: 5,10,15,20,25, etc
 output: "pong"_
-_3. Take user input and return this result (#'s divisible by 15)
+* _3. Take user input and return this result (#'s divisible by 15)
 input: 15, 30, 45,60, 75, etc
 output: "ping-pong"_
-_.Take user input and clear out previously displayed #, do this over and over as per the user's fancy.
+* _4.Take user input and clear out previously displayed #, do this over and over as per the user's fancy.
 input: first input:5, second input: 9, etc
 output:first display:"pong",  clearing 1st display, second display,:"ping"_
-_5.App can count up to the given #, and output them
+* _5.App can count up to the given #, and output them
 input:2
 output:[1,2]_
 
