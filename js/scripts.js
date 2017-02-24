@@ -7,9 +7,18 @@ function pingPong(pingPongs){
     } else if (i % 3 === 0) {
       $("#outPut").append('<img src="https://i.kinja-img.com/gawker-media/image/upload/s--WodPvWTT--/c_scale,f_auto,fl_progressive,q_80,w_800/p23ecukc9nys2xdixl0q.jpg"> ping');
     } else if (i % 5 === 0) {
-      $("#outPut").append('<img src="https://cdn.shutterstock.com/shutterstock/videos/23115493/thumb/1.jpg"> pong');
+      $("#outPut").append('<img src="https://cdn.shutterstock.com/shutterstock/videos/23115493/thumb/1.jpg"> pong').hide().fadeIn(333);
     } else {
-      $("#outPut").append( i + " "+'<img src="http://pngimg.com/upload_small/ping_pong/ping_pong_PNG10373.png">');
+      $("#outPut").append( i + " "+'<img src="http://pngimg.com/upload_small/ping_pong/ping_pong_PNG10373.png">').hide().fadeIn(333);
+      $( "#outPut" ).click(function() {
+      $("#outPut").animate({
+        width: "70%",
+        opacity: 0.01,
+        marginLeft: "0.6in",
+        fontSize: "3em",
+        borderWidth: "10px"
+      }, 1500 );
+    });
     }
   }
 }
