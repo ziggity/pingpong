@@ -5,7 +5,7 @@ function pingPong(pingPongs){
     if (i % 15 === 0) {
       $("#outPut").append('<img src="http://83e2u32cf1b4dlzbl29etyxt.wpengine.netdna-cdn.com/wp-content/uploads/2015/09/Spin-Button.jpg"> ping-pong');
     } else if (i % 3 === 0) {
-      $("#outPut").append('<img src="https://cdn.shutterstock.com/shutterstock/videos/23115502/thumb/1.jpg?i10c=img.resize"> ping');
+      $("#outPut").append('<img src="https://i.kinja-img.com/gawker-media/image/upload/s--WodPvWTT--/c_scale,f_auto,fl_progressive,q_80,w_800/p23ecukc9nys2xdixl0q.jpg"> ping');
     } else if (i % 5 === 0) {
       $("#outPut").append('<img src="https://cdn.shutterstock.com/shutterstock/videos/23115493/thumb/1.jpg"> pong');
     } else {
