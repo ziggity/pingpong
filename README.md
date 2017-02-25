@@ -8,9 +8,14 @@
 _A web app that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following: ping, pong, ping-pong messages._
 
 ## Link to repository and GH-pages
+<<<<<<< 190790e4768fe8eae561f13358fe077103a215d8
 * https://github.com/ziggity/pingpong.git
 * https://ziggity.github.io/pingpong/
 
+=======
+https://github.com/ziggity/pingpong.git
+https://ziggity.github.io/pingpong/
+>>>>>>> add gh-pages, it will help recruiters find my portfolio and enable collaboration with others much more easily
 
 ## Specs
 

@@ -11,6 +11,9 @@ html, body {
 	background:#ededed;
 	padding:10px;
 }
+.refreshP{
+  color:inherit;
+}
 #content {
 	padding-bottom:100px; /* Height of the footer element */
 }
@@ -28,8 +31,17 @@ h2{
   color:blue;
 }
 h1 {
+<<<<<<< 190790e4768fe8eae561f13358fe077103a215d8
   font-size: 75px;
   color: green;
+=======
+  color: blue;
+  text-align: center;
+  font-style: italic;
+}
+h2{
+  color: blue;
+>>>>>>> add gh-pages, it will help recruiters find my portfolio and enable collaboration with others much more easily
   text-align: center;
   font-style: italic;
 }

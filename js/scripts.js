@@ -20,7 +20,7 @@ function pingPong(pingPongs){
         }, 3000 );
       });
     }
-    $('#refreshP').click(function() {
+    $("h2").click(function() {
     location.reload(); //------This reloads page for user
     });
   }
