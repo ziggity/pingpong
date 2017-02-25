@@ -10,7 +10,7 @@ function pingPong(pingPongs){
       $("#outPut").append('<img src="https://cdn.shutterstock.com/shutterstock/videos/23115493/thumb/1.jpg"> pong').hide().fadeIn(333);
     } else {
       $("#outPut").append( i + " "+'<img src="http://pngimg.com/upload_small/ping_pong/ping_pong_PNG10373.png">').hide().fadeIn(333);
-      $( "#outPut" ).click(function() {
+      $("#outPut"   ).click(function() {
       $("#outPut").animate({//--Animation -----
         width: "10%",
         opacity: 0.01,
@@ -21,14 +21,12 @@ function pingPong(pingPongs){
       });
     }
     $('#refreshP').click(function() {
-    location.reload();
-});
+    location.reload(); //------This reloads page for user
+    });
   }
-
 }
 //frontend, gather user's input
 $(function(){
-
 	var userNumber = parseInt(prompt("¡Enter your digits, por favor!"));
   var letPing = pingPong(userNumber)
 });
