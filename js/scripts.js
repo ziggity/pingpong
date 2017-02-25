@@ -11,19 +11,24 @@ function pingPong(pingPongs){
     } else {
       $("#outPut").append( i + " "+'<img src="http://pngimg.com/upload_small/ping_pong/ping_pong_PNG10373.png">').hide().fadeIn(333);
       $( "#outPut" ).click(function() {
-      $("#outPut").animate({
-        width: "70%",
+      $("#outPut").animate({//--Animation -----
+        width: "10%",
         opacity: 0.01,
-        marginLeft: "0.6in",
-        fontSize: "3em",
-        borderWidth: "10px"
-      }, 1500 );
-    });
+        marginLeft: "0.3in",
+        fontSize: "2em",
+        borderWidth: "5px"
+        }, 3000 );
+      });
     }
+    $('#refreshP').click(function() {
+    location.reload();
+});
   }
+
 }
 //frontend, gather user's input
 $(function(){
+
 	var userNumber = parseInt(prompt("¡Enter your digits, por favor!"));
   var letPing = pingPong(userNumber)
 });
